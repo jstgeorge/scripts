@@ -9,10 +9,10 @@
 # Usage: Run the script and follow the prompts to enter the YouTube URL, start time, end time, and desired file extension.
 # If you want to automate the process, you can set the variables at the beginning of the script to negate the Read-Host prompts.
 
-$youtubeUrl = "https://www.youtube.com/watch?v=3zD7rBcgduw"
-$startTime = "00:17:04.00"
-$endTime = "00:17:13.00"
-$fileExtension = "mp3"
+#$youtubeUrl = "https://www.youtube.com/watch?v=3zD7rBcgduw"
+#$startTime = "00:17:04.00"
+#$endTime = "00:17:13.00"
+#$fileExtension = "mp3"
 
 # Check if yt-dlp.exe and ffmpeg.exe are present in the current directory
 Write-Output "Checking dependencies..."
